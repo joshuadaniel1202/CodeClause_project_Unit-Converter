@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="top-txt" >Type a value in any of the fields to convert between unit measurements.</p>
+    <div class="container">
+        <p>Unit Converter</p>
+    <div class="inputContent">
+        <label for="meter">meters</label> <input type="number" name="" id="meter" oninput="convertToOthers('meter',this.value)">
+    </div>
+    <div class="inputContent">
+        <label for="cm">cm</label>
+        <input type="number" id="cm" name="" oninput="convertToOthers('cm',this.value)">
+    </div>
+    <div class="inputContent">
+        <label for="inch">inch</label> <input type="number" id="inch" name="" oninput="convertToOthers('inch',this.value)">
+    </div>
+    <div class="inputContent">
+        <label for="feet">feet</label> <input type="number" id="feet" name="" oninput="convertToOthers('feet',this.value)">
+    </div>
+    <div class="inputContent">
+        <label for="km">km</label> <input type="number" id="km" name="" oninput="convertToOthers('km',this.value)">
+    </div>
+    <div class="inputContent">
+        <label for="miles">miles</label><input type="number" id="miles" name="" oninput="convertToOthers('miles',this.value)">
+    </div>
+    <div class="inputContent">
+        <label for="yards">yards</label><input type="number" id="yards" name="" oninput="convertToOthers('yards',this.value)">
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
